@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "a938",
+      "username": "Neeraj Rathore",
+      "email": "aela5074@gmail.com",
+      "password": "12345",
+      "isAdmin": true,
+      "cart": [
+        {
+          "productId": "5",
+          "quantity": 6
+        },
+        {
+          "productId": "6",
+          "quantity": 1
+        },
+        {
+          "productId": "4",
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "jAvNTmCDbPeQquOEJH5T9",
+      "username": "Neeraj Rathore",
+      "email": "neerajrathore2090@gmail.com",
+      "password": "12345",
+      "isAdmin": false,
+      "cart": [
+        {
+          "productId": "10",
+          "quantity": 1
+        },
+        {
+          "productId": "9",
+          "quantity": 1
+        },
+        {
+          "productId": "8",
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "quantity": 4
+        },
+        {
+          "productId": "4",
+          "quantity": 1
+        },
+        {
+          "productId": "15",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Fresh Broccoli",
+      "price": "2",
+      "description": "Green and healthy broccoli.",
+      "category": "vegetable",
+      "image": "https://www.simplyrecipes.com/thmb/pWjqxmRxs_He1V18ryJZSpZab0Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2006__01__steamed-broccoli-horiz-b-2000-9c966360d0ad47a29120d700906697d9.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Red Bell Pepper",
+      "price": "1",
+      "description": "Crisp and sweet red bell pepper.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/1130564105/photo/sweet-pepper-paprika-isolated-on-white-background-clipping-path-full-depth-of-field.jpg?s=612x612&w=0&k=20&c=m_01GdGMntpr6B3tiplqxbtPN8zTKN1xfucAaBu3Mkw="
+    },
+    {
+      "id": "3",
+      "title": "Baby Corn",
+      "price": 3,
+      "description": "Tender baby corn, perfect for stir fry.",
+      "category": "vegetable",
+      "image": "https://freshkartfarms.com/assets/img/product_img/450X450/baby-corn1.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Dragon Fruit",
+      "price": 4.5,
+      "description": "Exotic dragon fruit, sweet and juicy.",
+      "category": "exotic",
+      "image": "https://media.istockphoto.com/id/486639076/photo/dragon-fruit-fresh-from-the-tree.jpg?s=612x612&w=0&k=20&c=n_mLb05y-1y0zUTKJjpPKfrZ5FRFTQT6aMq4OpErRFU="
+    },
+    {
+      "id": "5",
+      "title": "Avocado",
+      "price": 2.2,
+      "description": "Creamy avocado, rich in nutrients.",
+      "category": "exotic",
+      "image": "https://media.istockphoto.com/id/1482149278/photo/fresh-avocado-on-white.jpg?s=612x612&w=0&k=20&c=1tMnZ0Jit8gK7M4VP8ECNYMKKxkdkmTDN-AlAe8a_T4="
+    },
+    {
+      "id": "6",
+      "title": "Kale",
+      "price": 2,
+      "description": "Leafy green kale, great for salads.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/522865796/photo/collard-greens.jpg?s=612x612&w=0&k=20&c=b32eT3kiz8zQJ7BDRgOr5sqta-FLMn0bmyD-sKDCd3Y="
+    },
+    {
+      "id": "7",
+      "title": "Purple Cabbage",
+      "price": 1.7,
+      "description": "Crunchy purple cabbage.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/1291000510/photo/red-cabbage-on-white-background.jpg?s=612x612&w=0&k=20&c=JiT7z8SY_lsRjzSSmkIhG2XDE7uTPd1Eo7Of4vX-KSI="
+    },
+    {
+      "id": "8",
+      "title": "Rambutan",
+      "price": 5,
+      "description": "Exotic rambutan fruit, sweet and hairy.",
+      "category": "exotic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvL4Kjp0TZC3nUudlXluogcwY_Y4UMZQEg-w&s"
+    },
+    {
+      "id": "9",
+      "title": "Zucchini",
+      "price": 1.9,
+      "description": "Fresh green zucchini.",
+      "category": "vegetable",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXmqTGA_uQqNLR2da3nnE4rRB2uEqr_GebvQ&s"
+    },
+    {
+      "id": "10",
+      "title": "Passion Fruit",
+      "price": 3.8,
+      "description": "Tropical passion fruit, tangy and sweet.",
+      "category": "exotic",
+      "image": "https://media.istockphoto.com/id/1207288873/photo/set-of-whole-and-half-of-fresh-passion-fruit.jpg?s=612x612&w=0&k=20&c=Kn0UbPHP_49QetM0RokJfjJHBlrzl5NjBzXXUpmNVfk="
+    },
+    {
+      "id": "12",
+      "title": "Mango",
+      "price": 2.5,
+      "description": "Juicy ripe mango.",
+      "category": "fruit",
+      "image": "https://media.istockphoto.com/id/168370138/photo/mango.jpg?s=612x612&w=0&k=20&c=ENq2BrUV8dNH2rth_ZYBBtS9RWDwCbI25SfulxirmnQ="
+    },
+    {
+      "id": "13",
+      "title": "Starfruit",
+      "price": 4,
+      "description": "Exotic starfruit, crisp and tart.",
+      "category": "exotic",
+      "image": "https://media.istockphoto.com/id/1081886192/photo/carambola-star-fruit-slice-isolated.jpg?s=612x612&w=0&k=20&c=KIEWEI7fQF1kLVJaCeS4UbowDBDGZBW7UmABZkpfO9Q="
+    },
+    {
+      "id": "14",
+      "title": "Okra",
+      "price": 1.6,
+      "description": "Fresh green okra.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/586044228/photo/fresh-young-okra.jpg?s=612x612&w=0&k=20&c=ZRz8L_USIoMl6A6e-Ehxgi0e5dHukanmAYWXxD7wP1Q="
+    },
+    {
+      "id": "15",
+      "title": "Lychee",
+      "price": 4.2,
+      "description": "Sweet and juicy lychee fruit.",
+      "category": "fruit",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjfRpvGTLx7hzA_cLlQFveCCS9r7iNpZzSYg&s"
+    },
+    {
+      "id": "16",
+      "title": "Snow Peas",
+      "price": 2.8,
+      "description": "Crisp snow peas, great for salads.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/97882663/photo/sugar-snap-peas.jpg?s=612x612&w=0&k=20&c=AKcc2qIb2IY9L5XdT5B4gwQCSH0JpJGifO0AUUcyU-k="
+    },
+    {
+      "id": "17",
+      "title": "Papaya",
+      "price": 2.7,
+      "description": "Tropical papaya, rich in vitamins.",
+      "category": "fruit",
+      "image": "https://media.istockphoto.com/id/864053288/photo/whole-and-half-of-ripe-papaya-fruit-with-seeds-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hJ5DpNTt0oKjZMIHYV6gUHTntB2zIs_78dPKiuDUXgE="
+    },
+    {
+      "id": "18",
+      "title": "Bok Choy",
+      "price": 2.3,
+      "description": "Asian green bok choy.",
+      "category": "exotic",
+      "image": "https://media.istockphoto.com/id/1401785337/photo/bok-choy-isolated-on-white.jpg?s=612x612&w=0&k=20&c=6Bzn-dC13SW8tIPPw8jvhlOBwylJyT4QXXCz0riHtcM="
+    },
+    {
+      "id": "19",
+      "title": "Guava",
+      "price": 2.1,
+      "description": "Fresh guava, sweet and tangy.",
+      "category": "fruit",
+      "image": "https://media.istockphoto.com/id/171575811/photo/guava.jpg?s=612x612&w=0&k=20&c=cjVDpisFrT8JlqFbSEImkfsXgQbtrNCdSTILGAzIj2Q="
+    },
+    {
+      "id": "20",
+      "title": "Romanesco",
+      "price": 3.9,
+      "description": "Exotic romanesco, unique and tasty.",
+      "category": "vegetable",
+      "image": "https://media.istockphoto.com/id/1285150996/photo/romanesco-cabbage-on-a-white-background-isolated.jpg?s=612x612&w=0&k=20&c=rm25qJRQjTj33bBlSttAq8xlQAY1ZrcfzbgghrzQr58="
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width: 640px) {
+    .navbar{
+        font-size: 14px !important;
+        gap: 8px;
+}
+.middleDiv {
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+}
+a{
+    text-align: center;
+}
+}
