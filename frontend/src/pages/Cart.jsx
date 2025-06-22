@@ -11,7 +11,7 @@ const cart = () => {
   const ItemsDecreaseHandler = (id) => {
     let copyUser = {
       ...user,
-      cart: user.cart.map((item) => ({ ...item }))
+      cart: user?.cart?.map((item) => ({ ...item }))
     }
     const x = copyUser.cart.findIndex((c) => c.productId == id);
     console.log(x);
@@ -61,7 +61,7 @@ const cart = () => {
           <div className='max-[630px]:text-[10px] flex flex-col gap-1 justify-center'>
             <h1>{product?.title}</h1>
             <h3 className='text-black'>Category: {product?.category}</h3>
-            <p>Price: {product?.price}</p>
+            <p>Price: ${product?.price}</p>
           </div>
         </div>
         <div className='h-full flex items-center'>

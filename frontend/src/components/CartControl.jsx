@@ -1,9 +1,9 @@
-import React from 'react'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { asyncUpdateUser } from '../store/actions/userActions';
 
-const CartControl = ({ data, user }) => {
-    let dispatch = useDispatch();
+const CartControl = ({data}) => {
+    const dispatch = useDispatch();
+    const user = useSelector(state => state.user.user)
 
     const ItemsDecreaseHandler = (id) => {
         let copyUser = {
@@ -52,9 +52,9 @@ const CartControl = ({ data, user }) => {
     return (
         <>
             {user ? (
-                user.cart?.findIndex((c) => c.productId === data.id) === -1 ? (
+                user.cart?.findIndex((c) => c.productId === data?.id) === -1 ? (
                     <button
-                        onClick={() => AddToCartHandler(data.id)}
+                        onClick={() => AddToCartHandler(data?.id)}
                         className="bg-green-600 px-3 py-1 rounded-lg text-sm"
                     >
                         Add to Cart

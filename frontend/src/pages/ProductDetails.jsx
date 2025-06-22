@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { asyncDeleteProduct, asyncUpdateProduct } from '../store/actions/productActions';
 import { useForm } from 'react-hook-form';
 import { useEffect } from 'react';
+import CartControl from '../components/CartControl';
 
 const ProductDetails = () => {
     let { id } = useParams();
@@ -55,9 +56,7 @@ const ProductDetails = () => {
                     </p>
 
                     {/* Add to Cart Button */}
-                    <button className='bg-black text-white px-5 py-2 rounded-2xl text-base max-[760px]:text-[10px]'>
-                        Add to Cart
-                    </button>
+                    <CartControl data={product} />
                 </div>
 
                 <div className='w-1/3 flex flex-col items-center gap-4 max-[760px]:w-full max-[760px]:pt-8'>

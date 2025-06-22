@@ -10,14 +10,14 @@ const Navbar = () => {
                 <span className="material-symbols-outlined">grass</span>
                 <h1 className='max-[480px]:pt-1 leading-none' style={{ fontFamily: "Lilita One" }}>Fresh Basket</h1>
             </div>
-            <div className='middleDiv flex justify-center text-3xl items-center font-semibold gap-4 max-[480px]:gap-2 max-[480px]:text-2xl' style={{ fontFamily: "Josefin Sans" }}>
+            <div className='middleDiv flex justify-center text-2xl items-center font-semibold gap-4 max-[480px]:gap-2 max-[480px]:text-2xl' style={{ fontFamily: "Josefin Sans" }}>
                 <NavLink to="/"><i className="ri-home-wifi-line"></i></NavLink>
                 <NavLink className="pt-[2px]" to="/products"><i className="ri-store-3-fill"></i></NavLink>
                 {user && user?.isAdmin && <>
-                    <NavLink className="leading-none text-3xl max-[480px]:text-2xl" to={"/create-product"}><i className="ri-edit-box-fill"></i></NavLink>
+                    <NavLink className="leading-none text-2xl max-[480px]:text-2xl" to={"/create-product"}><i className="ri-edit-box-fill"></i></NavLink>
                 </>}
             </div>
-            <div className='flex font-semibold pl-2 text-3xl max-[480px]:pl-0 pt-[2px] gap-4 justify-center items-center max-[480px]:gap-2 max-[480px]:text-2xl' style={{ fontFamily: "Josefin Sans" }}>
+            <div className='flex font-semibold pl-2 text-2xl max-[480px]:pl-0 pt-[2px] gap-4 justify-center items-center max-[480px]:gap-2 max-[480px]:text-2xl' style={{ fontFamily: "Josefin Sans" }}>
                 { user?.email && <NavLink to={"/cart"}><i className="ri-shopping-cart-fill"></i></NavLink>}
                 
                    {!user?.email && <NavLink to="/login">Login</NavLink>} 

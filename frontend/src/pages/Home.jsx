@@ -14,7 +14,7 @@ const Home = () => {
       }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/50"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-black/10"></div>
 
       {/* Center content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-white text-center space-y-6 animate-fade-in">
